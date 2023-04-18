@@ -7,7 +7,7 @@ import PasswordChecklist from "react-password-checklist"
 import logo from '../assets/Img/logo.png'
 import Button from 'react-bootstrap/Button'
 
-const Login = ({setIsPositive, setMessage, setShowMessage, setLoggedInUser}) => {
+const Login = ({setIsPositive, setMessage, setShowMessage, setLoggedInUser, setAdmin}) => {
 
 // Komponentin tilan määritys
 const [username, setUsername] = useState('')
@@ -35,6 +35,10 @@ const handleSubmit = (event) => {
         
         // Asetetaan app komponentissa olevaan stateen
         setLoggedInUser(response.data.username)
+        if (response.data.accesslevelId == 1)
+        {
+          setAdmin(true)
+        }
 
        setMessage(`Logged in as: ${userForAuth.username}`)       
        setIsPositive(true)

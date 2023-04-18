@@ -13,7 +13,7 @@ import Row from 'react-bootstrap/Row'
 import { useRef } from 'react'
 
 
-const CustomerList = ({ setMessage, setIsPositive, setShowMessage }) => {
+const CustomerList = ({ setMessage, setIsPositive, setShowMessage, admin }) => {
 
   // Komponentin tilojen ja sitä muuttavien set metodien määritys, sekä alustaminen.
 
@@ -96,7 +96,7 @@ const CustomerList = ({ setMessage, setIsPositive, setShowMessage }) => {
       <br></br>
       <div ref={scollToCustomers}></div>
       {
-        !lisäystila && !muokkaustila && showCustomers && customers && customers.map(c => {
+        admin && !lisäystila && !muokkaustila && showCustomers && customers && customers.map(c => {
           const lowerCaseName = c.companyName.toLowerCase()
           if (lowerCaseName.indexOf(search) > -1) {
             return (
@@ -108,7 +108,6 @@ const CustomerList = ({ setMessage, setIsPositive, setShowMessage }) => {
           }
         }
         )
-
       }
 
     </>

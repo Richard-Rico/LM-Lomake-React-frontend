@@ -19,12 +19,16 @@ const App = () => {
   const [isPositive, setIsPositive] = useState(true)
   const [showMessage, setShowMessage] = useState('')
   const [loggedInUser, setLoggedInUser] = useState('')
+  const [admin, setAdmin] = useState(false)
 
 
   useEffect(() => {
     let storedUser = localStorage.getItem("username")
+    let accesslevelId = localStorage.getItem("accesslevelId")
     if (storedUser !== null) {
       setLoggedInUser(storedUser)
+    }  if (accesslevelId == 1) {
+      setAdmin(true)
     }
   }, [])
 
@@ -33,14 +37,16 @@ const App = () => {
   const logout = () => {
     localStorage.clear()
     setLoggedInUser('')
+    setAdmin(false)
   }
 
+  if (admin == true) {
   return (
     <div className="App">
 
-      <div> 
+      <div>
         {!loggedInUser && <Login setMessage={setMessage} setIsPositive={setIsPositive}
-          setShowMessage={setShowMessage} setLoggedInUser={setLoggedInUser} />}
+          setShowMessage={setShowMessage} setLoggedInUser={setLoggedInUser} setAdmin={setAdmin} />}
       </div>
 
 
@@ -72,7 +78,7 @@ const App = () => {
               setShowMessage={setShowMessage} /></Route>
 
             <Route path="/Customers" > <CustomerList setMessage={setMessage} setIsPositive={setIsPositive}
-              setShowMessage={setShowMessage} /></Route>
+              setShowMessage={setShowMessage} admin={admin} /></Route>
 
             <Route path="/Users"> <UserList setMessage={setMessage} setIsPositive={setIsPositive}
               setShowMessage={setShowMessage} /></Route>
@@ -82,7 +88,46 @@ const App = () => {
 
       }
     </div>
-  )
+  )}
+  else {
+    return (
+      <div className="App">
+  
+        <div>
+          {!loggedInUser && <Login setMessage={setMessage} setIsPositive={setIsPositive}
+            setShowMessage={setShowMessage} setLoggedInUser={setLoggedInUser} setAdmin={setAdmin} />}
+        </div>
+  
+  
+        {loggedInUser &&
+          <Router>
+            <Navbar bg="light" variant="light" className="justify-content-center" activeKey="/home">
+  
+              <Nav >
+                <Nav.Item>
+                  <Link to={'/Lomake'} className='nav-link'>Lomake</Link>
+                </Nav.Item>
+              
+              </Nav>
+              <div ><Button size="sm" onClick={() => logout()} variant="outline-dark">Kirjaudu ulos</Button></div>
+            </Navbar>
+  
+            <img src={logo} />
+  
+            {showMessage && <Message message={message} isPositive={isPositive} />}
+  
+            <Switch>
+              <Route path="/Lomake" > <LomakeList setMessage={setMessage} setIsPositive={setIsPositive}
+                setShowMessage={setShowMessage} /></Route>
+  
+            </Switch>
+  
+          </Router>
+  
+        }
+      </div>
+    )
+  }
 }
 
 export default App

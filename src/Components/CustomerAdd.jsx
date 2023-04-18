@@ -175,7 +175,7 @@ const CustomerAdd = ({ setLisäystila, setIsPositive, setMessage, setShowMessage
 
                         <br></br>
                         <div className='div'>
-                            <Button type='submit' variant="outline-success">Tallenna</Button>
+                            <Button type='submit' variant="outline-success">Lähettää</Button>
                         </div>
 
                         <br></br>

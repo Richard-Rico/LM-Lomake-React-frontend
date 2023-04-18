@@ -2,12 +2,7 @@
 
 ## Description ⛰ 
 
-This repository contains a Reactjs application that connects with LM Rest Api-Backend and database using cloud services.
-
-![login](https://user-images.githubusercontent.com/104793974/230045922-b9d72a8b-086d-41e5-aed1-7677d7ee34b3.JPG)
-![asikas](https://user-images.githubusercontent.com/104793974/230045870-bf29c2f7-8296-4a9a-a755-4c89a5e60b8b.JPG)
-![esitietolomake](https://user-images.githubusercontent.com/104793974/230045951-aa724634-67a4-45ba-b8ec-5d10bc26d3c3.JPG)
-![showCustomers](https://user-images.githubusercontent.com/104793974/230045963-0b18ae0f-caed-4d8a-be1c-3d6faf541297.JPG)
+This repository contains a react application that connects with LM Rest Api-Backend and database using cloud services.
 
 
 ## Author ©

@@ -1,8 +1,8 @@
 /* eslint-disable import/no-anonymous-default-export */
 import axios from "axios"
 
-const baseUrl = "https://localhost:7083/api/users"
-//const baseUrl = "https://nwbackendrr.azurewebsites.net/api/users"
+//const baseUrl = "https://localhost:7083/api/users"
+const baseUrl = "https://lmrestapi.azurewebsites.net/api/users"
 
 let token = null
 
