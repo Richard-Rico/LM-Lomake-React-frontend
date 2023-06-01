@@ -3,7 +3,7 @@
 ## Description ⛰ 
 
 This repository contains a Reactjs application that connects with LM Rest Api-Backend and database using cloud services. 
-Are you want to see the Finnish version documentation?, please click here [Luna Mama Esitietolomake Dokumentaatio](https://esitietolomake.luna-mama.com)
+Are you want to see the Finnish version documentation?, please click here [Luna Mama Esitietolomake Dokumentaatio](https://naytto2023.richard-rico.com/)
 <p align="center">
   <img src="https://github.com/Richard-Rico/LM-Lomake-React-frontend/assets/104793974/e0339bd5-fd8d-4fa2-b61a-92488941b32c" alt="login">
  </p>
@@ -27,7 +27,8 @@ Are you want to see the Finnish version documentation?, please click here [Luna 
 
 ## How to see this project? 🔎
 
-This project you can opened here [LM-Lomake-React-Frontend](https://esitietolomake.luna-mama.com)
+This project you can opened here [LM-Lomake-React-Frontend](https://esitietolomake.luna-mama.com)<br>
+If you want a demo credential to test the application please <a href="mailto:info@richard-rico.com">contact me</a></p>
 
 <br>
 
