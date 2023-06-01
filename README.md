@@ -2,8 +2,18 @@
 
 ## Description ⛰ 
 
-This repository contains a react application that connects with LM Rest Api-Backend and database using cloud services.
+This repository contains a Reactjs application that connects with LM Rest Api-Backend and database using cloud services. 
+Are you want to see the Finnish version documentation?, please click here [Luna Mama Esitietolomake Dokumentaatio](https://esitietolomake.luna-mama.com)
+<p align="center">
+  <img src="https://github.com/Richard-Rico/LM-Lomake-React-frontend/assets/104793974/e0339bd5-fd8d-4fa2-b61a-92488941b32c" alt="login">
+ </p>
+ 
+![asikas](https://github.com/Richard-Rico/LM-Lomake-React-frontend/assets/104793974/64ba911b-a130-47f5-a0ac-943fa6aa571e)
+![esitietolomake](https://github.com/Richard-Rico/LM-Lomake-React-frontend/assets/104793974/68494ffa-3f6d-4617-a187-344cdf1c5b01)
 
+<p align="center">
+  <img src="https://github.com/Richard-Rico/LM-Lomake-React-frontend/assets/104793974/24add270-70af-4242-9474-496140b21226>" alt="showcustomers"
+</p>
 
 ## Author ©
 
@@ -13,11 +23,13 @@ This repository contains a react application that connects with LM Rest Api-Back
 
 ## About Me 🚀
 
-🔥 Passionate about Software Development & Cybersecurity 🔥 Interested in Frontend, Backend, Full-Stack ⚡#javascript #nodejs #html #css #phyton #C# #sql⚡
+🔥 Passionate about Software Development & Cybersecurity 🔥 Interested in Frontend, Backend, Full-Stack ⚡#Reactjs #javascript #nodejs #html #css #phyton #C# #SQL⚡
 
 ## How to see this project? 🔎
 
-This project you can opened here [NW React Frontend](https://richard-rico.github.io/NW-React-Frontend/build)
+This project you can opened here [LM-Lomake-React-Frontend](https://esitietolomake.luna-mama.com)
+
+<br>
 
 # Getting Started with Create React App ⚛️
 
@@ -59,35 +71,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
